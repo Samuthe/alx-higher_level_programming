@@ -7,9 +7,6 @@ from calculator_1.py import add, sub, multiply, div
 a = 10
 b = 5
 
-a = int(a)
-b = int(b)
-
 print("{} + {} = {}".format(a, b, add(a + b)))
 print("{} - {} = {}".format(a, b, sub(a - b)))
 print("{} * {} = {}".format(a, b, multiply(a * b)))
