@@ -58,6 +58,7 @@ class Rectangle:
         if self.__width == 0 or self.__height == 0:
             return (empty_string)
 
+            """else return printable str"""
         return ((('#' * self.width) + "\n") * self.height)[:-1]
 
     """ Returns an “official” string representation of an instance """
