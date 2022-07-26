@@ -1,7 +1,8 @@
 #!/usr/bin/python3
-"""instantiating class rectangle"""
 
+"""Creating a new class"""
 class Rectangle:
-    """empty class rectangle"""
     pass
+    """empty Rectangle class"""
+
 
