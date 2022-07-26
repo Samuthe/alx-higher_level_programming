@@ -1,11 +1,11 @@
 #!/usr/bin/python3
 """
-New class Rectangle
+implement a new class Rectangle
 """
-
 
 class Rectangle:
     """ Rectangle class empty """
     pass
+
 
 
