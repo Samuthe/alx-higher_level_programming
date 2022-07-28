@@ -2,4 +2,4 @@
 
 def magic_string(x=[-1]):
     x[0] += 1
-    return "Samuel" + ", Ekati" * x[0]
+    return "BestSchool" + ", BestSchool" * x[0]
