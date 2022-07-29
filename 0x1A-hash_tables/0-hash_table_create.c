@@ -17,8 +17,6 @@ ptr_to_array = calloc(1, sizeof(hash_table_t));
 if (ptr_to_array == NULL)
 return (NULL);
 ptr_to_array->size = size;
-/* The  calloc()  function allocates memory for an array */
-/* void *calloc(size_t nmemb, size_t size) */
 ptr_to_array->array = calloc(size, sizeof(hash_table_t **));
 if (ptr_to_array->array == NULL)
 {
