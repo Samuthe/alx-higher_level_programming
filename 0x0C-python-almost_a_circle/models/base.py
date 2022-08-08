@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 
+
 class Base:
     """New class"""
 
-
-"""private class attr"""
+    """private class attr/variable"""
     __nb_objects = 0
 
     def __init__(self, id=None):
