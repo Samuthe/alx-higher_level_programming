@@ -9,7 +9,7 @@ class Rectangle(Base):
     
     """declaring the initials of Rectangle class"""
     def __init__(self, width, height, x=0, y=0, id=None):
-        super.__init__(id)
+        super().__init__(id)
         self.width = width
         self.height = height
         self.x = x
@@ -127,7 +127,7 @@ class Rectangle(Base):
             self.y = kwargs["y"]
 
     def to_dictionary(self):
-        """Returns the dictionary represenation of a Rectangle"""
+        """The dictionary representation Rectangle"""
         return 
         {
             "id": self.id, 
