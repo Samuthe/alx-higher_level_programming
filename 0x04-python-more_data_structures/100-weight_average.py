@@ -9,4 +9,3 @@ def weight_average(my_list=[]):
             sec_ind += index[1]
         return (fst_ind / sec_ind)
     return 0
-    
