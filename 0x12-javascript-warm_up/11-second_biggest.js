@@ -26,9 +26,9 @@
 //   console.log(process.argv.sort().reverse()[1]);
 // }
 
-const mySol = process.argv;
-if (mySol.length <= 3) {
+const list = process.argv;
+if (list.length <= 3) {
   console.log(0);
 } else {
-  console.log(mySol.sort((x, y) => y - x).slice(3)[0]);
+  console.log(list.sort((x, y) => y - x).slice(3)[0]);
 }
