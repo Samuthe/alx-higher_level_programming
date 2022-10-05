@@ -1,5 +1,5 @@
 #!/usr/bin/node
-//a funct that executes itself a number of times
+// a funct that executes itself a number of times
 callMeMoby = function (x, theFunction) {
   while (x > 0) {
     theFunction();
