@@ -3,7 +3,6 @@
 
 import urllib.request
 
-
 def fetcher():
     """fetcher"""
     with urllib.request.urlopen("https://intranet.hbtn.io/status") as response:
