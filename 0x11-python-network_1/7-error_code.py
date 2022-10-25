@@ -1,20 +1,16 @@
 #!/usr/bin/python3
-"""Check status"""
+"""script that takes in a URL,
+sends a request to the URL and
+displays the body of the response (decoded in utf-8).
+"""
 import requests
 import sys
 
+if __name__ == '__main__':
+    url = sys.argv[1]
 
-def errorcode():
-    """status"""
-    result = requests.get(sys.argv[1])
-    try:
-        if result.status_code > 400:
-            print("Error code: {}".format(result.status_code))
-        else:
-            print(result.content.decode("utf-8"))
-    except KeyError:
-        pass
-
-
-if __name__ == "__main__":
-    errorcode()
+    request = requests.get(url)
+    if request.status_code >= 400:
+        print(f"Error code: {request.status_code}")
+    else:
+        print(request.text)
